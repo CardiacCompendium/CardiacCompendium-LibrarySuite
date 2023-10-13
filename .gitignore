@@ -1,3 +1,6 @@
 DataRegistry/*
 iSEEindex/*
 PIC-SURE/*
+.ipynb_checkpoints/*
+.DS_Store
+cache/*

@@ -1,0 +1,1 @@
+docker build -t docker.synapse.org/syn52554913/cardiac-compendium:arm64-v0.1.1 . # NOTE: For m1/m2 iOS

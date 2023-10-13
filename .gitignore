@@ -4,3 +4,4 @@ PIC-SURE/*
 .ipynb_checkpoints/*
 .DS_Store
 cache/*
+notebooks/.ipynb_checkpoints

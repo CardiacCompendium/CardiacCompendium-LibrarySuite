@@ -1,3 +1,6 @@
 [submodule "PIC-SURE"]
 	path = modules/PIC-SURE
 	url = https://github.com/CardiacCompendium/PIC-SURE
+[submodule "iSEEindex"]
+	path = modules/iSEEindex
+	url = https://github.com/CardiacCompendium/iSEEindex

@@ -19,8 +19,10 @@ RUN R -e 'BiocManager::install("scater", dependencies=TRUE)'
 RUN R -e "install.packages('paws.storage', repos = c(pawsr = 'https://paws-r-builds.s3.amazonaws.com/packages/latest/', CRAN = 'https://cloud.r-project.org'))"
 
 RUN R -e "install.packages(c('testthat','urltools', 'MPRAnalyze'), repos='http://cran.us.r-project.org')"
+RUN R -e "devtools::install_github('hms-dbmi/pic-sure-r-adapter-hpds', ref='main', force=T, quiet=FALSE)"
 
 RUN pip install --user pytest
 RUN pip install --user synapseclient
 RUN conda update conda
 RUN conda install -c conda-forge pandoc
+RUN pip install sevenbridges-python

@@ -5,5 +5,5 @@
 	path = modules/iSEEindex
 	url = https://github.com/CardiacCompendium/iSEEindex
 [submodule "Data-Registry"]
-	path = Data-Registry
+	path = modules/Data-Registry
 	url = https://github.com/CardiacCompendium/Data-Registry

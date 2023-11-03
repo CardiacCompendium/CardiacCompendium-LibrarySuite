@@ -1,3 +1,6 @@
 [submodule "modules/PIC-SURE"]
 	path = modules/PIC-SURE
 	url = https://github.com/CardiacCompendium/PIC-SURE
+[submodule "modules/Data-Registry"]
+	path = modules/Data-Registry
+	url = https://github.com/CardiacCompendium/Data-Registry

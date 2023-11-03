@@ -1,0 +1,3 @@
+[submodule "modules/PIC-SURE"]
+	path = modules/PIC-SURE
+	url = https://github.com/CardiacCompendium/PIC-SURE
